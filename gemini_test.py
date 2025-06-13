@@ -35,7 +35,7 @@ FETCH_HOURS_AGO = 24  # 例如: 24 代表过去24小时, 12 代表过去12小时
 MAX_MESSAGES_TO_PROCESS = 1500  # 设置一个上限，防止处理过多消息
 
 # Moved prompt prefix to configuration
-# The {fetch_hours} placeholder will be replaced by the value of FETCH_HOURS_AGO
+# The {fetch_hours} placeholder will  be replaced by the value of FETCH_HOURS_AGO
 GEMINI_PROMPT_PREFIX = (
     f"这是过去{FETCH_HOURS_AGO}小时的部分QQ群聊记录。其中《图片N》代表按顺序提供的第N张图（部分图片可能来自GIF等）。\n"
     "请用中文结合所有文本和图片信息进行分析和回应。请按照以下指示和结构进行回复：\n\n"

@@ -1,0 +1,10 @@
+[project]
+name = "qq-test"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9"
+dependencies = [
+    "genai>=2.1.0",
+    "protobuf>=6.31.1",
+    "requests>=2.32.3",
+]
